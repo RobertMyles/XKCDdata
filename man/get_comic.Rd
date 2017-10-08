@@ -10,7 +10,7 @@ get_comic(comic = NULL)
 \item{comic}{\code{integer}. Comic number.}
 }
 \description{
-Download data from individual xkcd comics from
+Download data from individual XKCD comics from
 <https://xkcd.com/>.
 }
 \examples{
