@@ -4,7 +4,7 @@
 XKCDdata
 ========
 
-XKCDdata is a little package to get data from individual [xkcd]() comics.
+XKCDdata is a little package to get data from individual [xkcd](https://xkcd.com/) comics.
 
 Installation
 ------------
@@ -33,4 +33,12 @@ get_comic(comic = 1421)
 #> 1     9  1421        2014       Future Self
 #> # ... with 5 more variables: transcript <chr>, alt <chr>, img <chr>,
 #> #   title <chr>, day <chr>
+```
+
+Or you can get a list of comics pretty easily using purrr, `apply()` or for loops. With purrr, it would be something like:
+
+``` r
+# list of comics:
+cm <- c(1421, 641, 87, 92)
+purrr::map_df(cm, get_comic)
 ```

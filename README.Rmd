@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 
 # XKCDdata
 
-XKCDdata is a little package to get data from individual [xkcd]() comics.
+XKCDdata is a little package to get data from individual [xkcd](https://xkcd.com/) comics.
 
 ## Installation
 From CRAN:  
@@ -38,4 +38,13 @@ library(XKCDdata)
 
 get_comic(comic = 1421)
 
+```
+
+
+Or you can get a list of comics pretty easily using purrr, `apply()` or for loops. With purrr, it would be something like: 
+
+```{r, eval = FALSE}
+# list of comics:
+cm <- c(1421, 641, 87, 92)
+purrr::map_df(cm, get_comic)
 ```
