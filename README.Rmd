@@ -1,5 +1,5 @@
 ---
-output:
+output: 
   md_document:
     variant: markdown_github
 ---
@@ -29,10 +29,10 @@ install.packages("XKCDdata")
 
 Let's get this comic (it's number 1421):  
 
-[https://imgs.xkcd.com/comics/future_self.png](https://imgs.xkcd.com/comics/future_self.png)  
+![https://imgs.xkcd.com/comics/future_self.png](https://imgs.xkcd.com/comics/future_self.png) 
 
 
-```{r, eval = FALSE}
+```{r}
 library(XKCDdata)
 
 get_comic(comic = 1421)
