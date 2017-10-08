@@ -3,7 +3,8 @@
 #' @importFrom jsonlite fromJSON
 #' @importFrom tibble as_tibble
 #' @title Get XKCD Comic Data
-#' @description Download data from individual  xkcd comics.
+#' @description Download data from individual xkcd comics from
+#' <https://xkcd.com/>.
 #' @param comic \code{integer}. Comic number.
 #' @examples \dontrun{get_comic(comic = 614)}
 #' @export

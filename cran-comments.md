@@ -1,3 +1,7 @@
+## 
+
+I updated the description and the DESCRIPTION to include the url to the website I'm referring to. I've also fixed the empty url in the README.
+
 ## Test environments
 * local OS X install, R 3.4.1
 * ubuntu 12.04 (on travis-ci), R 3.4.1

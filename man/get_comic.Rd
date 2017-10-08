@@ -10,7 +10,8 @@ get_comic(comic = NULL)
 \item{comic}{\code{integer}. Comic number.}
 }
 \description{
-Download data from individual  xkcd comics.
+Download data from individual xkcd comics from
+<https://xkcd.com/>.
 }
 \examples{
 \dontrun{get_comic(comic = 614)}
