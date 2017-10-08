@@ -1,5 +1,5 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/RobertMyles/XKCDdata?branch=master&svg=true)](https://ci.appveyor.com/project/RobertMyles/XKCDdata)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/RobertMyles/XKCDdata?branch=master&svg=true)](https://ci.appveyor.com/project/RobertMyles/XKCDdata) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/XKCDdata)](https://cran.r-project.org/package=XKCDdata)
 
 XKCDdata
 ========
