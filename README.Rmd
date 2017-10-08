@@ -48,3 +48,5 @@ Or you can get a list of comics pretty easily using purrr, `apply()` or for loop
 cm <- c(1421, 641, 87, 92)
 purrr::map_df(cm, get_comic)
 ```
+
+Then you could plot it XKCD-style with the [xkcd](http://xkcd.r-forge.r-project.org/) package if you wanted. 
