@@ -23,8 +23,10 @@ get_comic <- function(comic = NULL){
 
   assertthat::assert_that(df$status_code == 200, msg = "Comic not found.")
 
-  httr::content(df, as = "text") %>%
+
+  suppressMessages(httr::content(df, as = "text") %>%
     jsonlite::fromJSON() %>%
     dplyr::as_tibble() %>%
     dplyr::mutate(link = glue::glue("http://xkcd.com/{comic}"))
+  )
 }
