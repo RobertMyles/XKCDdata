@@ -2,8 +2,8 @@ Package: XKCDdata
 Type: Package
 Title: Get XKCD Comic Data
 Version: 0.1.0
-Author: Robert Myles McDonnell
-Maintainer: Robert Myles McDonnell <robertmylesmcdonnell@gmail.com>
+Authors@R: c(person("Robert Myles ", "McDonnell", email = "robertmylesmcdonnell@gmail.com", role = c("aut", "cre")), 
+           person("Colin", "Fay", email = "contact@colinfay.me", role = c("ctb")))
 Description: Download data from individual XKCD comics, from <https://xkcd.com/>.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -13,4 +13,8 @@ Imports: httr(>= 1.3.1),
     magrittr (>= 1.5),
     tibble (>= 1.3.4),
     dplyr (>= 0.7.4),
-    jsonlite(>= 1.5)
+    jsonlite(>= 1.5),
+    glue,
+    htmltools,
+    assertthat
+Suggests: testthat

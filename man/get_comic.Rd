@@ -9,6 +9,9 @@ get_comic(comic = NULL)
 \arguments{
 \item{comic}{\code{integer}. Comic number.}
 }
+\value{
+a tibble with comic data
+}
 \description{
 Download data from individual XKCD comics from
 <https://xkcd.com/>.
