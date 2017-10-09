@@ -4,7 +4,6 @@
 #'
 #' @importFrom glue glue
 #' @importFrom htmltools HTML html_print
-#' @importFrom assertthat assertthat
 #'
 #' @param comic \code{integer}. Comic number.
 #'

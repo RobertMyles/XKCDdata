@@ -16,6 +16,6 @@ the xkcd comic in your default Viewer
 Print an xkcd in your default Viewer
 }
 \examples{
-\dontrun{print_xkcd(comic = 2811)}
+\dontrun{print_xkcd(comic = 12)}
 
 }

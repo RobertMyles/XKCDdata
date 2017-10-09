@@ -1,7 +1,7 @@
 #' @importFrom httr GET content
 #' @importFrom jsonlite fromJSON
 #' @importFrom glue glue
-#' @importFrom dplyr mutate
+#' @importFrom dplyr mutate as_tibble
 #' @importFrom assertthat assert_that
 #' @title Get XKCD Comic Data
 #' @description Download data from individual XKCD comics from

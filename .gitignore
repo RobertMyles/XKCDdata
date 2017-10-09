@@ -17,6 +17,7 @@
 # RStudio files
 .Rproj.user/
 *.Rproj.user/*
+.Rproj.user/shared/notebooks/paths
 
 # produced vignettes
 vignettes/*.html
