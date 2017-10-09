@@ -11,6 +11,5 @@ test_that("getcomics ", {
 })
 
 test_that("printxkcd works", {
-  expect_message(print_xkcd(123))
   expect_error(print_xkcd("abs"))
 })

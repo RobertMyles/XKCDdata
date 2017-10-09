@@ -2,7 +2,7 @@
 % Please edit documentation in R/print_xkcd.R
 \name{print_xkcd}
 \alias{print_xkcd}
-\title{Print xkcd}
+\title{Print XKCD}
 \usage{
 print_xkcd(comic)
 }
@@ -13,9 +13,8 @@ print_xkcd(comic)
 the xkcd comic in your default Viewer
 }
 \description{
-Print an xkcd in your default Viewer
+Print an XKCD comic in your default Viewer
 }
 \examples{
 \dontrun{print_xkcd(comic = 12)}
-
 }
