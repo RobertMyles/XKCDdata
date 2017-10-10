@@ -3,8 +3,9 @@ Type: Package
 Title: Get XKCD Comic Data
 Version: 0.1.0
 Authors@R: c(person("Robert Myles ", "McDonnell", email = "robertmylesmcdonnell@gmail.com", role = c("aut", "cre")), 
-           person("Colin", "Fay", email = "contact@colinfay.me", role = c("ctb")))
-Description: Download data from individual XKCD comics, from <https://xkcd.com/>.
+           person("Colin", "Fay", email = "contact@colinfay.me", role = c("ctb")),
+           person("Randall", "Munroe", role = "cph"))
+Description: Download data from individual XKCD comics, written by Randall Munroe <https://xkcd.com/>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

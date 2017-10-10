@@ -1,4 +1,5 @@
 ## 
+Updated to include Randall Munroe as author of XKCD and copyright holder.
 
 I updated the description and the DESCRIPTION to include the url to the website I'm referring to and standardized 'XKCD'. I've also fixed the empty url in the README.
 
