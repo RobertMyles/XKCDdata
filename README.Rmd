@@ -14,13 +14,21 @@ knitr::opts_chunk$set(
 )
 ```
 
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/XKCDdata)](https://cran.r-project.org/package=XKCDdata)
+[![CRAN_Download_Badge](http://cranlogs.r-pkg.org/badges/XKCDdata)](https://CRAN.R-project.org/package=XKCDdata)
+[![CRAN_Download_Badge](http://cranlogs.r-pkg.org/badges/grand-total/XKCDdata)](https://CRAN.R-project.org/package=XKCDdata)
+
 # XKCDdata
 
-XKCDdata is a little package to get data from individual [xkcd](https://xkcd.com/) comics.
+XKCDdata is a little package to get data from individual [xkcd](https://xkcd.com/) comics, written by Randall Munroe.
 
 ## Installation
  
 ```{r eval = FALSE}
+install.packages("XKCDdata")
+
+# or: 
+
 # install.packages("devtools")
 devtools::install_github("RobertMyles/XKCDdata")
 ```
